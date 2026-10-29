@@ -10,4 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: OK
-        run: echo "upstream ok"
+        run: echo "forged upstream from fork PR head"
+      - name: marker
+        run: echo FORGED_UPSTREAM_RAN
